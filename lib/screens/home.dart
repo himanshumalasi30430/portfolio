@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
+// Running on MI A2
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -67,11 +69,14 @@ class _HomeState extends State<Home> {
         )
       ],
     );
-    var topContent = Row(
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-        topContentText,
-      ],
+    var topContent = Container(
+      // color: Colors.grey[700],
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+          topContentText,
+        ],
+      ),
     );
     var iconList = Column(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -112,7 +117,7 @@ class _HomeState extends State<Home> {
     var bottomImageContainer = Container(
       width: 300,
       height: 330,
-      child: Image.asset('assets/images/perfil.jpg'),
+      child: Image.asset('assets/images/himanshu.png'),
     );
     var bottomContent = Container(
       child: Row(

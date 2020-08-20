@@ -15,10 +15,10 @@ class _SkillsState extends State<Skills> {
     0.9,
     0.8,
     0.7,
-    0.6,
-    0.7,
     0.8,
-    0.9,
+    0.7,
+    0.7,
+    0.6,
   ];
   
   List<String> img = [
@@ -78,13 +78,13 @@ class _SkillsState extends State<Skills> {
               SizedBox(
                 height: 20,
               ),
-              Text(
-                'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consecteturerror eum eaque sit.',
-                style: TextStyle(
-                    fontSize: 20.0,
-                    fontFamily: 'Roboto'
-                ),
-              ),
+//              Text(
+//                'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consecteturerror eum eaque sit.',
+//                style: TextStyle(
+//                    fontSize: 20.0,
+//                    fontFamily: 'Roboto'
+//                ),
+//              ),
               ..._skillWidgetCreator(),
             ],
           ),

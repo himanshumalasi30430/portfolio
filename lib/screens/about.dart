@@ -24,9 +24,10 @@ class About extends StatelessWidget {
                 height: 350,
                 // color: Colors.grey[300],
                 child: Image.asset(
-                  'assets/images/about.jpg',
+                  'assets/images/himanshu_about.jpg',
                   width: 300,
                   height: 350,
+                  fit: BoxFit.cover,
                 ),
               ),
               SizedBox(height:20),
@@ -46,10 +47,7 @@ class About extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
                 child: Text(
-                  'Lorem, ipsum dolor sit amet consectetur adipisicing elit. '
-                      'Voluptate cum expedita quo culpa tempora, assumenda, '
-                      'quis fugiat ut voluptates soluta, aut earum '
-                      'nemo recusandae cumque perferendis! Recusandae alias accusamus atque.',style: TextStyle(
+                  'I am a hard working, honest individual. I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite, have a good sense of humour. I am able to work independently in busy environments and also within a team setting. I am outgoing and tactful, and able to listen effectively when solving problems.',style: TextStyle(
                     fontSize: 18,
                     letterSpacing: 1.5,
                     fontFamily: 'Roboto'
